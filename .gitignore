@@ -1,0 +1,27 @@
+# секреты — никогда не в репозиторий
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# база с данными пользователей
+*.db
+*.sqlite
+*.sqlite3
+
+# служебное Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+.idea/
+.vscode/
+*.log
+
+# системное
+Thumbs.db
+.DS_Store
+desktop.ini
